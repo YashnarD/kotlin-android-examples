@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/alert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog" />
+
+    <Button
+        android:id="@+id/alert_list_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert dialog with List" />
+
+    <Button
+        android:id="@+id/alert_single_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert single dialog with List" />
+
+    <Button
+        android:id="@+id/custom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom dialog" />
+
+    <Button
+        android:id="@+id/fragment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment dialog" />
+
+    <Button
+        android:id="@+id/date_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date picker dialog" />
+
+    <Button
+        android:id="@+id/time_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time picker dialog" />
+
+    <Button
+        android:id="@+id/bottom_sheet_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom sheet dialog" />
+
+    <Button
+        android:id="@+id/snackbar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snackbar" />
+
+</LinearLayout>
